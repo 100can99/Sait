@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Бэсто Новости
+{% endblock %}
+
+{% block content %}
+    <h1>Бэсто новости</h1>
+    <p>Наши новости</p>
+<section class="py-5 text-center container">
+   <img src="https://i.ytimg.com/vi/mpeuAiz5pSs/maxresdefault.jpg" width="70%" alt="Banner Image" class="img-fluid">
+  </section>
+<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{% url 'chashka' %}">1. День рождения!</a>
+
+<section class="py-5 text-center container">
+   <img src="https://i.pinimg.com/736x/77/fe/62/77fe62f8cc75b6e75c9500d00caefd1d.jpg" width="70%" alt="Banner Image" class="img-fluid">
+  </section>
+<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{% url 'panda' %}">2. Создание сайта</a>
+
+<section class="py-5 text-center container">
+   <img src="https://i.ibb.co/KGjbbSv/magicheskaybitva2.jpg" width="70%" alt="Banner Image" class="img-fluid">
+  </section>
+<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{% url 'prazd' %}">3. Праздники</a>
+
+<section class="py-5 text-center container">
+   <img src="https://i.pinimg.com/originals/de/1d/9a/de1d9aeecb39dc80f9e97e6eddb7cc6f.jpg" width="70%" alt="Banner Image" class="img-fluid">
+  </section>
+<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{% url 'cena' %}">4. Изменение цен</a>
+
+{% endblock %}
